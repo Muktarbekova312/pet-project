@@ -1,0 +1,20 @@
+.todos__header,.todo__item,.tittle__id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.container{
+    padding: 30px;
+}
+.tittle__id p:first-child{
+    margin-right: 15px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 10px;
+    accent-color: green;
+}
+.create__todo input:first-child{
+    padding: 8px;
+}
